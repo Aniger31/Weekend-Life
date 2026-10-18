@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ive7yj8crp7t"]
+
+[ext_resource type="Script" path="res://casa_nutri.gd" id="1_casa"]
+
+[node name="CasaNutri" type="Node2D"]
+script = ExtResource("1_casa")

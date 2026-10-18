@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://c3bmjp641v3fe"]
+
+[ext_resource type="Texture2D" uid="uid://ca7gpt4wnnvns" path="res://inicio_sin_botones.jpeg" id="1_fondo"]
+[ext_resource type="Texture2D" uid="uid://hfmxmddvbxvd" path="res://boton inicio.png" id="2_jugar"]
+[ext_resource type="Texture2D" uid="uid://ddetn5313nju1" path="res://boton salida.png" id="3_salir"]
+[ext_resource type="Script" uid="uid://b3sk3hoerh2l1" path="res://boton_inicio.gd" id="4_inicio"]
+[ext_resource type="Script" uid="uid://wk0pi6qeieyk" path="res://boton_salida.gd" id="5_salida"]
+[ext_resource type="Script" uid="uid://pxbwwvt5tp42" path="res://scripts/menu_principal.gd" id="6_menu"]
+
+[node name="Main" type="Node2D" unique_id=207577761]
+script = ExtResource("6_menu")
+
+[node name="InicioDelJuego" type="Sprite2D" parent="." unique_id=1637022929]
+position = Vector2(576, 324)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("1_fondo")
+
+[node name="BotonInicio" type="TextureButton" parent="." unique_id=1456632030]
+offset_left = 381.5
+offset_top = 285.3
+offset_right = 788.2
+offset_bottom = 420.9
+texture_normal = ExtResource("2_jugar")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_inicio")
+
+[node name="BotonSalida" type="TextureButton" parent="." unique_id=1887533469]
+offset_left = 453.6
+offset_top = 410.0
+offset_right = 718.3
+offset_bottom = 498.2
+texture_normal = ExtResource("3_salir")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("5_salida")

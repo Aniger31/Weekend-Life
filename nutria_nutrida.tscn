@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cv2ppdk2afur2"]
+
+[ext_resource type="Texture2D" uid="uid://dvbrveq4g8spo" path="res://backgrounds/fondo1.jpeg" id="1_o7okq"]
+[ext_resource type="Texture2D" uid="uid://bxn7ypytfimg5" path="res://characters/nutria_nutrida.png" id="2_4u38i"]
+
+[node name="Node2D" type="Node2D" unique_id=682105157]
+
+[node name="Fondo1" type="Sprite2D" parent="." unique_id=487039022]
+position = Vector2(583.5, 328)
+scale = Vector2(0.725625, 0.7111111)
+texture = ExtResource("1_o7okq")
+
+[node name="ScriptCreateDialog" type="ScriptCreateDialog" parent="Fondo1" unique_id=1637824560]
+
+[node name="NutriaNutrida" type="Sprite2D" parent="." unique_id=650932478]
+position = Vector2(477, 297)
+scale = Vector2(0.096923806, 0.11930336)
+texture = ExtResource("2_4u38i")
