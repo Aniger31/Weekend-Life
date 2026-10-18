@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8ssyhgoinlh8"
+path="res://.godot/imported/Weekend's life - jam.wav-e203edf093032c73e2b1b8ef7128b26f.sample"
+
+[deps]
+
+source_file="res://audio de fondo/Weekend's life - jam.wav"
+dest_files=["res://.godot/imported/Weekend's life - jam.wav-e203edf093032c73e2b1b8ef7128b26f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
